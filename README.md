@@ -18,7 +18,7 @@ Na resolução deste projecto deve ser utilizada a Linguagem de Programação C.
 - Considere a implementação de funções para melhorar a legibilidade, evitar a duplicação e criar soluções mais genéricas.
 - É proíbida a utilização de variáveis globais - i.e. variáveis declaradas fora de qualquer função.
 - É proíbida a utilização da função `strtok()`.
-- Este trabalho deverá ser realizado individualmente.
+- Este trabalho deverá ser realizado **individualmente**.
 
 Para a realização deste projecto, os alunos deverão adquirir as seguintes competências:
 - Manipulação de ficheiros
@@ -314,6 +314,7 @@ ___.__.___
     - A plataforma corre automaticamente uma série de testes e no fim atribui uma classificação **indicativa**. Os alunos deverão analisar o relatório emitido pela plataforma e poderão alterar o código e voltar a submeter o trabalho. Neste trabalho haverá limite de submissões.
       A plataforma não permite a entrega de trabalhos após a data e hora limite.
     - Incorrecta indentação do código poderá originar penalizações na nota.
+* Submissão no Moodle do Link para o repositório do GitHub onde têm o código. 
 
 ## 7. Peso na avaliação
 
