@@ -11,7 +11,7 @@
 Na resolução deste projecto deve ser utilizada a Linguagem de Programação C. Para além da correta implementação dos requisitos, tenha em conta os seguintes aspetos:
 - O código apresentado deve estar *bem indentado*. 
 - O código deve compilar sem erros ou *warnings* utilizando o *gcc* com as seguintes flags:
- `-Wall -Wextra -Wpedantic -ansi`
+ `-Wall -Wextra -Wpedantic -Wvla -std=c99`
 - Tenha em atenção os nomes dados das variáveis, para que sejam indicadores daquilo que as mesmas vão conter.
 - Evite o uso de constantes mágicas. 
 - Evite duplicação de código. 
@@ -88,15 +88,15 @@ O nome do ficheiro é obrigatório para que o programa arranque correctamente. C
 O programa deverá começar por apresentar o seguinte menu:
 
 ```
-+-----------------------------------------------------
++-----------------------------------------------------+
 show                - show the mine map
 propagate <x> <y>   - explode bomb at <x> <y>
-log <x> <y>			      - explode bomb at <x> <y>
+log <x> <y>         - explode bomb at <x> <y>
 plant <x> <y>       - place bomb at <x> <y>
 export <filename>   - save file with current map
 quit                - exit program
 sos                 - show menu
-+-----------------------------------------------------
++-----------------------------------------------------+
 ```
 
 Sempre que o programa estiver à espera que o utilizador introduza um input, deverá imprimir, numa linha isolada, o caracter `>`. Se o utilizador introduzir um input inválido o programa deverá mostrar a mensagem `Invalid command!` e deverá continuar à espera que o utilizar introduza um input.
